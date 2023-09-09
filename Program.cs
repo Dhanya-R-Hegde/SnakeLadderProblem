@@ -4,6 +4,7 @@ namespace SnakeLadderProblem
 {
     internal class SnakeLadder
     {
+        //UserCase1
         public const int start = 0;
         public const int end = 100;
         public static int Resultp1 = start;
