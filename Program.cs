@@ -44,7 +44,7 @@ namespace SnakeLadderProblem
             }
             else if (snakeOrLadd == 2) //ladder
             {
-                //UserCase5
+                
                 if(result+diceVal!=100 && result + diceVal < 100)
                 {
                     result += diceVal;
@@ -99,6 +99,7 @@ namespace SnakeLadderProblem
 
             }
 
+            //UserCase6
             Console.WriteLine("Number of times the dice is rolled by player1 to reach 100 is : " + Countp1);
             Console.WriteLine("Number of times the dice is rolled by player2 to reach 100 is : " + Countp2);
             
