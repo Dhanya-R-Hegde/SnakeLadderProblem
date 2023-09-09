@@ -4,7 +4,7 @@ namespace SnakeLadderProblem
 {
     internal class SnakeLadder
     {
-        //UserCase1
+        
         public const int start = 0;
         public const int end = 100;
         public static int Resultp1 = start;
@@ -13,6 +13,7 @@ namespace SnakeLadderProblem
         public static int Countp1 = 1;
         public static int Countp2 = 1;
 
+        //UserCase2
         public static int Dice()
         {
             Random random = new Random();
