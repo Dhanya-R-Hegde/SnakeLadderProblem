@@ -28,7 +28,7 @@ namespace SnakeLadderProblem
             return SorL;
         }
 
-        //UserCase3
+        
         public static int resultCheck(int snakeOrLadd, int diceVal)
         {
             if (snakeOrLadd == 1) //snake
@@ -65,6 +65,7 @@ namespace SnakeLadderProblem
         {
             int player = 1;
 
+            //UserCase4
             while(Resultp1!=100 && Resultp2 != 100)
             {
                 if (player == 1) 
