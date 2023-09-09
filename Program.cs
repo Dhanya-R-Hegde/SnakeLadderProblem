@@ -13,7 +13,7 @@ namespace SnakeLadderProblem
         public static int Countp1 = 1;
         public static int Countp2 = 1;
 
-        //UserCase2
+        
         public static int Dice()
         {
             Random random = new Random();
@@ -28,6 +28,7 @@ namespace SnakeLadderProblem
             return SorL;
         }
 
+        //UserCase3
         public static int resultCheck(int snakeOrLadd, int diceVal)
         {
             if (snakeOrLadd == 1) //snake
