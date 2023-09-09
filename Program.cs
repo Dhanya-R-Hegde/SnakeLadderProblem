@@ -44,6 +44,7 @@ namespace SnakeLadderProblem
             }
             else if (snakeOrLadd == 2) //ladder
             {
+                //UserCase5
                 if(result+diceVal!=100 && result + diceVal < 100)
                 {
                     result += diceVal;
@@ -65,7 +66,7 @@ namespace SnakeLadderProblem
         {
             int player = 1;
 
-            //UserCase4
+            
             while(Resultp1!=100 && Resultp2 != 100)
             {
                 if (player == 1) 
