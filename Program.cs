@@ -69,6 +69,7 @@ namespace SnakeLadderProblem
             
             while(Resultp1!=100 && Resultp2 != 100)
             {
+                //UserCase7
                 if (player == 1) 
                 {
                     int diceCheckp1 = Dice();
@@ -99,7 +100,7 @@ namespace SnakeLadderProblem
 
             }
 
-            //UserCase6
+            
             Console.WriteLine("Number of times the dice is rolled by player1 to reach 100 is : " + Countp1);
             Console.WriteLine("Number of times the dice is rolled by player2 to reach 100 is : " + Countp2);
             
